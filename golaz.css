@@ -1,21 +1,36 @@
 html {
     font-family: "Roboto", sans-serif;
-    font-size: medium;
+
     background-color:yellow;
-    text-align: center;
 }
 p, li{
-    max-width: 400px;
     margin: auto;
     padding: 4px;
+    font-size: medium;
     color: #5D3FD3;
 }
 li{
     text-align: left;
 }
-h1, h2, h3, * {
+h1{
+    font-size:xx-large;
+}
+h1, h2, h3 {
     color: green;
+    text-align: center;
 }
 ul, ol{
     padding: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.item {
+    max-width: 600px;
+}
+p.describtion {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
 }
